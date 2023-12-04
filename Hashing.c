@@ -49,7 +49,7 @@ void display()
   int i;
   printf("\nElements in the hash table are :");
   for(i=0;i< TABLE_SIZE; i++)
-      printf("\nAt index %d \t value =  %d",i,h[i]);
+      printf("\nAt index %d \t value = %d",i,h[i]);
   printf("\n");
 }
 
