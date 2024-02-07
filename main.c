@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
-#include<stdbool.h>
 
 int top = -1;
 char stack[20];
