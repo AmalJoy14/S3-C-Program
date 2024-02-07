@@ -23,10 +23,7 @@ int main() {
         else if (infix[i] == '(')
             push(infix[i]);
         else if (infix[i] == ')')
-            while (true){
-                if(pop() != '(')
-                    break;
-                }
+            while (pop() != '(');
         else {
             while (priority(stack[top]) >= priority(infix[i])) {
                 pop();
