@@ -3,13 +3,13 @@
 void merge(int arr[], int left, int middle, int right)
    {
     int i, j, k;
-    int n1 = middle - left + 1;
-    int n2 = right - middle;
+    int n1 = middle - left ;
+    int n2 = right - middle + 1;
     int L[n1], R[n2];
     for (i = 0; i < n1; i++)
         L[i] = arr[left + i];
     for (j = 0; j < n2; j++)
-        R[j] = arr[middle + j +1];
+        R[j] = arr[middle + 1 + j];
     i = 0;
     j = 0;
     k = left;
